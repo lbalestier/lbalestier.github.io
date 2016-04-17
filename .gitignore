@@ -22,7 +22,10 @@ Thumbs.db
 *.tar
 *.zip
 
-sass/
+### Sass
+sass
+.sass-cache
+*.css.map
 
 ### Miscellaneous ###
 License.txt
