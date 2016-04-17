@@ -63,7 +63,7 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
-		// Panels.
+		// Panels - set.
 			var $panels = $('.panel');
 
 			$panels.each(function() {
@@ -171,8 +171,7 @@
 						href = $this.attr('href');
 
 					// Internal link? Skip.
-						if (!href
-						||	href.charAt(0) == '#')
+						if (!href ||	href.charAt(0) == '#')
 							return;
 
 					// Redirect on click.
