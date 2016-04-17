@@ -13,7 +13,7 @@ gulp.task('concat-scripts', function(){
     'assets/js/util.js',
     "assets/js/main.js"
   ])
-  .pipe(concat("production.js")) // the output file
+  .pipe(concat("main.js")) // the output file
   .pipe(gulp.dest('assets/js'));  // new file will go to our js folder
 
 });
